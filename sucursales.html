@@ -27,20 +27,21 @@
 </head>
 
 <body>
-
-    <div id="logo" class="container-fluid col-sm-12 col-md-12 col-12">
-        <a href="index.html"><img src="img/lbr-logoRosa.png" alt="" height="150" width="150"></a>
+    <div id="logo" class="container-fluid ">
+        <a href="#"><img src="img/lbr-logoRosa.png" alt="" height="150" width="150"></a>
     </div>
     <header class="sticky-top">
         <!--Navigation bar-->
-        <nav class="navbar navbar-expand-lg navbar-light col-sm-12 col-md-12 col-12">
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
-                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <nav class="navbar navbar-expand-lg navbar-dark">
+            <button class="navbar-toggler navbar-toggler-right" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false"
+                aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
-            <div class="collapse navbar-collapse" id="navbarNav">
-                <ul class="navbar-nav mx-auto">
-                    <li class="nav-item">
+
+            <div class="collapse navbar-collapse text-center" id="navbarNav">
+                <ul class="navbar-nav mx-auto text-end">
+                    <li class="nav-item ">
                         <a class="nav-link active" aria-current="page" style="color: white;"
                             href="index.html">INICIO</a>
                     </li>
@@ -50,33 +51,28 @@
                             CATEGORÍAS
                         </a>
                         <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                            <div><a class="dropdown-item" href="hombres.html" style="color: white;">Hombres</a></div>
-                            <div><a class="dropdown-item" href="mujeres.html" style="color: white;">Mujeres</a></div>
-                            <div><a class="dropdown-item" href="niños.html" style="color: white;">Niños</a></div>
-                            <div><a class="dropdown-item" href="#" style="color: white;">Accesorios</a></div>
+                            <div><a class="dropdown-item" href="hombres.html" style="color: white;">HOMBRES</a></div>
+                            <div><a class="dropdown-item" href="mujeres.html" style="color: white;">MUJERES</a></div>
+                            <div><a class="dropdown-item" href="niños.html" style="color: white;">NIÑOS</a></div>
+                            <div><a class="dropdown-item" href="#" style="color: white;">ACCESORIOS</a></div>
                         </ul>
                     </li>
 
                     <li class="nav-item">
-                        <a class="nav-link active" style="color: white;" href="contacto.html">CONTACTO</a>
+                        <a class="nav-link active text-center" style="color: white;" href="contacto.html">CONTACTO</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link active" href="sucursales.html" style="color: white;">SUCURSALES</a>
+                        <a class="nav-link active" style="color: white;" href="sucursales.html">SUCURSALES</a>
                     </li>
                 </ul>
                 <div>
-                    <a class="fas fa-user" href="#"></a>
+                    <a href="#"><i class="fas fa-user"></i></a>
                     <a id="carrito" href="#"><i class="fas fa-shopping-cart"></i></a>
+                    <a id="lupa" href=""><i class="fas fa-search"></i></i></a>
                 </div>
-                <form class="d-flex">
-                    <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-                    <button class="btn" type="submit" style="color: white;"> <a href="#"><i
-                                class="fas fa-search"></a></i></button>
-                </form>
             </div>
         </nav>
     </header>
-
 
     <!--Carrousel-->
     <section id="global">

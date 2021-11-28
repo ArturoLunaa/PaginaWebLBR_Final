@@ -12,35 +12,36 @@
     <!--Script Boostrap-->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous">
-    </script>
+        </script>
 
     <!--Hoja de estilos CSS-->
     <link rel="stylesheet" type="text/css" href="css/estilos.css">
-    <link id="theme" rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/brands.min.css">
+    <link id="theme" rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/brands.min.css">
 
     <!--FontAwesome-->
     <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
-        integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous" 
-    />
+        integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous" />
 
     <title>LBRKICKZ</title>
 </head>
 
 <body>
 
-    <div id="logo" class="container-fluid col-sm-12 col-md-12 col-12">
+    <div id="logo" class="container-fluid ">
         <a href="#"><img src="img/lbr-logoRosa.png" alt="" height="150" width="150"></a>
     </div>
     <header class="sticky-top">
         <!--Navigation bar-->
-        <nav class="navbar navbar-expand-lg navbar-light col-sm-12 col-md-12 col-12">
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+        <nav class="navbar navbar-expand-lg navbar-dark">
+            <button class="navbar-toggler navbar-toggler-right" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
                 aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
-            <div class="collapse navbar-collapse" id="navbarNav">
-                <ul class="navbar-nav mx-auto">
-                    <li class="nav-item">
+         
+            <div class="collapse navbar-collapse text-center" id="navbarNav">
+                <ul class="navbar-nav mx-auto text-end">
+                    <li class="nav-item ">
                         <a class="nav-link active" aria-current="page" style="color: white;"
                             href="index.html">INICIO</a>
                     </li>
@@ -50,35 +51,34 @@
                             CATEGORÍAS
                         </a>
                         <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                            <div><a class="dropdown-item" href="hombres.html" style="color: white;">Hombres</a></div>
-                            <div><a class="dropdown-item" href="mujeres.html" style="color: white;">Mujeres</a></div>
-                            <div><a class="dropdown-item" href="niños.html" style="color: white;">Niños</a></div>
-                            <div><a class="dropdown-item" href="#" style="color: white;">Accesorios</a></div>
+                            <div><a class="dropdown-item" href="hombres.html" style="color: white;">HOMBRES</a></div>
+                            <div><a class="dropdown-item" href="mujeres.html" style="color: white;">MUJERES</a></div>
+                            <div><a class="dropdown-item" href="niños.html" style="color: white;">NIÑOS</a></div>
+                            <div><a class="dropdown-item" href="#" style="color: white;">ACCESORIOS</a></div>
                         </ul>
                     </li>
 
                     <li class="nav-item">
-                        <a class="nav-link active" style="color: white;" href="contacto.html">CONTACTO</a>
+                        <a class="nav-link active text-center" style="color: white;" href="contacto.html">CONTACTO</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link active" style="color: white;" href="sucursales.html">SUCURSALES</a>
                     </li>
                 </ul>
                 <div>
-                    <a class="fas fa-user" href="#"></a>
+                    <a href="#"><i class="fas fa-user"></i></a>
                     <a id="carrito" href="#"><i class="fas fa-shopping-cart"></i></a>
+                    <a id="lupa" href=""><i class="fas fa-search"></i></i></a>
                 </div>
-                <form class="d-flex">
-                    <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-                    <button class="btn" type="submit" style="color: white;"> <a href="#"><i class="fas fa-search"></a></i></button>
-                </form>
+              
             </div>
+
         </nav>
     </header>
 
     <!--Carrousel-->
     <section id="global">
-        <div id="carouselExampleIndicators" class="carousel slide carousel-fade" data-bs-ride="carousel">
+        <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
             <div class="carousel-indicators">
                 <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active"
                     aria-current="true" aria-label="Slide 1"></button>
@@ -91,18 +91,18 @@
                 <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="4"
                     aria-label="Slide 5"></button>
             </div>
-            <div class="carousel-inner col-sm-12 col-md-12 col-12">
+            <div class="carousel-inner">
                 <div class="carousel-item active">
                     <img src="img/snkPauly.jpg" class="d-block w-100" alt="...">
                 </div>
                 <div class="carousel-item ">
-                    <img src="img/snkDunk.jpeg" class="d-block w-100" alt="...">
+                    <img src="img/snkRetro.jpg" class="d-block w-100" alt="...">
                 </div>
                 <div class="carousel-item">
                     <img src="img/snkJbalvin.jpg" class="d-block w-100" alt="...">
                 </div>
                 <div class="carousel-item">
-                    <img src="img/snkBillie.jpg" class="d-block w-100" alt="...">
+                    <img src="img/snkAirMax.jpg" class="d-block w-100" alt="...">
                 </div>
                 <div class="carousel-item">
                     <img src="img/snkNike.jpg" class="d-block w-100" alt="...">
@@ -139,7 +139,8 @@
                 <div class="row">
                     <div class="col-sm-6 col-md-6 col-12-440width">
                         <article class="contenedor">
-                            <img src="img/categoriaHom.jpg" alt="" height="100%" width="100%">
+                            <a href="hombres.html"><img src="img/categoriaHom.jpg" alt="" height="100%"
+                                    width="100%"></a>
                             <div class="backgnd-des">
                                 <p>HOMBRES</p>
                             </div>
@@ -147,7 +148,7 @@
                     </div>
                     <div class="col-sm-6 col-md-6 col-12-440width">
                         <article class="contenedor">
-                            <img src="img/categoriaMu.jpg" alt="" height="100%" width="100%">
+                            <a href="mujeres.html"><img src="img/categoriaMu.jpg" alt="" height="100%" width="100%"></a>
                             <div class="backgnd-des">
                                 <p>MUJERES</p>
                             </div>
@@ -158,7 +159,7 @@
                         <article class="contenedor">
                             <img src="img/categoriaKids.png" alt="" height="100%" width="100%">
                             <div class="backgnd-des">
-                                <p>NIÑOS</p>
+                                <p>NIÑOS</p></a>
                             </div>
                         </article>
                     </div>
@@ -175,15 +176,12 @@
             </section>
 
             <!--CARROUSEL CON BANNERS-->
-            <section id="carruselPromo" class="container mt-3 col-sm-12 col-md-12 col-12">
+            <section id="carruselPromo" class="container mt-3 ">
                 <h3>"Si algún día bajo la mirada, es para admirar mis Nike"</h3>
                 <div id="myCarousel" class="carousel slide mt-4" data-bs-ride="carousel" data-bs-interval="3000">
                     <div class="carousel-inner">
                         <div class="carousel-item active">
-                            <img src="img/banner.png" class="d-block w-100" alt="...">
-                        </div>
-                        <div class="carousel-item">
-                            <img src="img/banner.png" class="d-block w-100" alt="...">
+                            <img src="img/banner2.png" class="d-block w-100" alt="...">
                         </div>
                         <div class="carousel-item">
                             <img src="img/banner.png" class="d-block w-100" alt="...">
@@ -222,9 +220,10 @@
             <div class="row">
                 <div class="col-6 col-md-4 col-sm-4">
                     <div class="container bg-transparent">
-                       <a href="index.html"> <img src="img/lbr-logoRosa.png" alt="" height="150px" width="150px"></a>
+                        <a href="index.html"> <img src="img/lbr-logoRosa.png" alt="" height="150px" width="150px"></a>
                     </div>
-                    <a href="https://www.facebook.com/LBR-KICKZ-102663987913059"><i class="fab fa-facebook-square mt-3 fa-3x"></i></a>
+                    <a href="https://www.facebook.com/LBR-KICKZ-102663987913059"><i
+                            class="fab fa-facebook-square mt-3 fa-3x"></i></a>
                     <a href="https://www.instagram.com/lbr_kickz/"><i class="fab fa-instagram fa-3x"></i></a>
                     <a href="https://twitter.com/"><i class="fab fa-twitter-square fa-3x"></i></a>
 
@@ -240,7 +239,9 @@
                     <h5>SERVICIO AL CLIENTE</h5>
                     <div>Preguntas frecuentes</div>
                     <div>Fórmas de pago</div>
-                    <a id="contactoFooter" href="contacto.html"><div>Contacto</div></a>
+                    <a id="contactoFooter" href="contacto.html">
+                        <div>Contacto</div>
+                    </a>
                 </div>
             </div>
         </footer>

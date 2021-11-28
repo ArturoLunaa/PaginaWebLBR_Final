@@ -24,6 +24,10 @@ body {
   color: white;
   font-size: 15pt;
 }
+#navbarNav{
+  background-color: #1c367e;
+  border: black;
+}
 .navbar:hover {
   cursor: pointer;
 }
@@ -46,6 +50,9 @@ body {
   margin-right: 20px;
   margin-left: 20px;
 }
+#lupa{
+  margin-right: 40px;
+}
 .navbar .fas {
   color: white;
 }
@@ -61,8 +68,11 @@ body {
 }
 
 /*CARRUSEL*/
-.carousel-item {
-  height: 100vh;
+ .carousel-item {
+  height: 100%;
+}
+.slide{
+  background-color: black;
 }
 
 /*SECCIÓN "¿QUIÉNES SOMOS?*/
@@ -111,23 +121,19 @@ h4 {
 /*Texto junto a logo de las marcas*/
 .container .row #textoMarcas {
   margin-top: 0px;
-  padding-top: 180px;
+  padding-top: 100px;
   text-align: center;
 }
 .container h2 {
-  margin-top: 120px;
+  margin-top: 40px;
 }
 
 /*SEGUNDO CARRUSEL DE BANNERS*/
 /*Para el tamaño del alto del slider de banners*/
-.bx-wrapper,
-.bx-viewport {
-  height: 380px !important;
-}
 #carruselPromo {
   padding-top: 1px;
   border: 20px;
-  height: 415px;
+  /* height: 415px; */
 }
 
 /*FOOTER*/
@@ -150,7 +156,7 @@ footer .row {
 footer div:hover {
   cursor: pointer;
 }
-#contactoFooter {
+#contactoFooter{
   color: white;
   text-decoration: none;
 }
